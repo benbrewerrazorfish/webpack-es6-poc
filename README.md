@@ -9,7 +9,10 @@ Run default grunt task
 ```sh
 $ grunt
 ```
-
+In another terminal, start a dev server:
+```sh
+$ grunt connect
+```
 Browse to <a href="http://localhost:8000/dist/" target="_blank">http://localhost:8000/dist/</a>.
 Look in sources tab of dev tools to see what goes in to the .js files.
 
